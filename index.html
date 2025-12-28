@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header section starts here-->
+    <header>
+        <h2 class="logo">PROSPER</h2>
+        <button id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle menu">☰</button>
+        <nav id="mobileMenu" class="mobileMenu" aria-hidden="true">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="overlay" aria-hidden="true"></div>
+        
+    </header>
+    <!--header section ends here-->
+    <!--home section starts here-->
+    <section id="home">
+        <h1>Hello, I'm <span>PROSPER</span></h1>
+        <p>Frontend Web Developer</p>
+    </section>
+    <!--home section ends here-->
+    <!--about section starts here-->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate frontend web developer with experience in creating responsive and user-friendly websites.
+            I specialize in HTML, CSS, and JavaScript. I love bringing designs to life and ensuring a great user experience.
+        </p>
+        
+
+    </section>
+    <!--skills section starts here-->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    <!--skills section ends here-->
+    <!--about section ends here-->
+    <!--projects section starts here-->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <a href="https://github.com/Alfredprosper/PORTFOLIO.git" target="_blank" class="project-link">
+            <div class="project-card">Calculator App</div>
+            </a>
+            <div class="project-card">To Do App</div>
+            <div class="project-card">Portfolio website</div>
+        </div>
+        
+    </section>
+    <!--projects section ends here-->
+    <!--contact section starts here-->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: alfredprosperselva@gmail.com</p>
+        <p>Feel free to reach out to me!</p>
+    </section>
+    <!--contact section ends here-->
+<script src="script.js"></script>
+</body>
+</html>
